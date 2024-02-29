@@ -1,0 +1,13 @@
+{
+  "neodev": {
+    "library": {
+      "enabled": true,
+      "plugins": false
+    }
+  },
+  "lspconfig": {
+    "lua_ls": {
+      "Lua.diagnostics.enable": false
+    }
+  }
+}
