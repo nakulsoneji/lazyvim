@@ -18,6 +18,15 @@ return {
             "--query-driver=/usr/bin/arm-none-eabi-*",
           },
         },
+        lua_ls = {
+          settings = {
+            Lua = {
+              diagnostics = {
+                globals = { "vim" },
+              },
+            },
+          },
+        },
       },
     },
   },

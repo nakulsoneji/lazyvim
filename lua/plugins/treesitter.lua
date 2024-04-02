@@ -12,9 +12,7 @@ return {
     opts = {
       indent = {
         enable = true,
-        disable = {
-          "dart",
-        },
+        disable = { "html" },
       },
     },
   },

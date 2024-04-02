@@ -8,7 +8,6 @@ vim.opt.indentkeys = "0{,0},0#,!^F,o,O,e"
 -- stop loading netrw, replaced with neotree
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
-
 -- causes cmp icons to be different sizes, most likely terminal's fault
 vim.opt.pumblend = 0
 

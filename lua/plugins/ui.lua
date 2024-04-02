@@ -18,6 +18,21 @@ return {
     },
   },
   {
+    "echasnovski/mini.indentscope",
+    opts = {
+      symbol = "▏",
+    },
+  },
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    opts = {
+      indent = {
+        char = "▏",
+        tab_char = "▏",
+      },
+    },
+  },
+  {
     "nvim-lualine/lualine.nvim",
     opts = function(_, opts)
       opts.options.component_separators = {
